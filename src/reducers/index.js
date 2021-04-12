@@ -1,3 +1,5 @@
+import { combineReducers } from 'redux';
+
 const songsReducer = () => [
   {
     title: 'Speak to Me',
@@ -47,3 +49,8 @@ const selectedSongReducer = (selectedSong = null, action) => {
   }
   return selectedSong;
 };
+
+export default combineReducers({
+  songs: songsReducer,
+  selectedSong: selectedSongReducer,
+});
