@@ -32,6 +32,7 @@ module.exports = {
     'react/jsx-one-expression-per-line': [0, { allow: 'literal' }],
     'jsx-a11y/interactive-supports-focus': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
+    'import/prefer-default-export': 'off',
 
   },
 };
